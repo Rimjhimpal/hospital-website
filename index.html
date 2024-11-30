@@ -1,0 +1,102 @@
+!DOCT<YPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("image3.jpg");
+            background-size: cover;
+            background-position: center;
+            height:150vh;
+    
+        header{
+            display:flex;
+            justify-content: space-between;
+            height:100px;
+            width:100%;
+            background-color: rgb(84, 122, 111);
+            align-items: center;
+            
+        }
+        .logo{
+            font-size: 30px;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            display: inline-block;
+            padding: 10px;
+            
+        }
+        .logo:hover{
+            color: white;
+        }
+        nav li {
+             display:inline-block;
+             align-items: center;
+             margin-right: 200px;
+             font-size: 20px;
+              }
+        nav li a{
+            text-decoration: none;
+            color:white;
+            
+        }
+        nav li a:hover{
+            color:black;
+            
+        }
+        button a{
+            
+            text-decoration: none;
+            color:white:
+        }
+        button a:hover{
+            color:black;
+            background-color:rgb(84, 122, 111);
+        }
+        .active a{
+            color: black;
+        }
+        h1{
+            text-align: center;
+            margin-top: 60px;
+            font-size: 50px;
+            color: blue;
+        }
+        h2{
+            text-align: center;
+            
+        }
+        @media (max-width:450px){
+            header{
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <img src="logo.png" height="100px" width="100px">
+     health care   
+    </div>
+    <nav>
+        <ul>
+            <li class="active"><a href="website.html">Home</a></li>
+            <li><a href="nav about.html">About</a></li>
+            <li><a href="nav service.html">Services</a></li>
+            <li><a href="nav doctor.html">Doctors</a></li>
+        </ul>
+    
+</nav>
+<button><a href="nav contact.html">Book Appointment</a></button>
+</header>
+
+<h1>WELCOME TO HOSPITAL</h1>
+<h2>A hospital is a health care institution providing patient treatment.</h2>
+
+
+
+</body>
+</html>
